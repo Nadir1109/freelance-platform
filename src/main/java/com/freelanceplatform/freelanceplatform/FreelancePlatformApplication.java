@@ -16,7 +16,7 @@ public class FreelancePlatformApplication {
 
 
 
-    // Optioneel: Voeg een welkomstpagina toe
+
     @GetMapping("/")
     public String welcome() {
         return "Welkom op het Freelance Platform! Hier kunnen freelancers en opdrachtgevers elkaar vinden.";
